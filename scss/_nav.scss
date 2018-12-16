@@ -1,0 +1,29 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  background: #555555;
+}
+
+.navHome {
+  grid-column: 1;
+}
+
+.navAboutUs {
+  grid-column: 2;
+}
+
+.navServices {
+  grid-column: 3;
+}
+
+.navContact {
+  grid-column: 4;
+}
+
+.navExternal {
+  grid-column: 5;
+}
